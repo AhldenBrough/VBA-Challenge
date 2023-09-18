@@ -1,16 +1,10 @@
-Sub Button1_Click()
+Sub Get_Stats()
 
     ' --------------------------------------------
     ' LOOP THROUGH ALL SHEETS
     ' --------------------------------------------
    For Each ws In Worksheets
 
-        ' --------------------------------------------
-        ' INSERT THE YEAR
-        ' --------------------------------------------
-
-        ' Create a Variable to Hold File Name, Last Row, and Year
-        'im WorksheetName As String
         Dim i As Long
         Dim volume As Double
         Dim start As Double
